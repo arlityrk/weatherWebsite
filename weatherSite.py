@@ -1,12 +1,14 @@
 #!/usr/bin/env python3.4
 # A very simple Bottle Hello World app for you to get started with...
-from bottle import default_app, route, request
 import json
 import urllib.request
 
+from bottle import default_app, route, request
+
+
 @route('/')
 def ip():
-    ip_api_key = 'f7673e91271891f69819db33755cda5cbd83baf4656aebe54029c315c4bfc04a'
+    ip_api_key = '<key>'
     user_ip = request.remote_addr
 
     baseipurl = 'http://api.ipinfodb.com/v3/ip-city/'

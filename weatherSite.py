@@ -1,5 +1,4 @@
 #!/usr/bin/env python3.4
-# A very simple Bottle Hello World app for you to get started with...
 import json
 import urllib.request
 
